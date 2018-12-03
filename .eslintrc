@@ -21,6 +21,7 @@
         "comma-dangle": [2, "never"],
         "padded-blocks": 0,
         "no-console": [2],
+        "no-unused-vars": [ "error", { "args": "none" } ],
         "no-underscore-dangle": 0,
         "no-continue": 0,
         "lines-around-directive": 0,
