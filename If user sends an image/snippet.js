@@ -1,1 +1,1 @@
-async (req, res) => req.isImage();
+(req, res) => req.isImage();

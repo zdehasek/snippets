@@ -1,1 +1,1 @@
-async (req, res) => req.isSticker();
+(req, res) => req.isSticker();
