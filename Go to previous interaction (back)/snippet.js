@@ -3,7 +3,7 @@
         && req.state.beforeLastInteraction !== '/*'
         && req.state.beforeLastInteraction !== res.currentAction()) {
 
-        res.setState({ lastInteraction: null });
+        res.setState({ lastInteraction: null, beforeLastInteraction: null });
         postBack(req.state.beforeLastInteraction);
         return null;
     }
