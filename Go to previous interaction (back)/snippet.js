@@ -1,5 +1,5 @@
 (req, res, postBack) => {
-    if (req.state.beforeLastInteraction) {
+    if (req.state.beforeLastInteraction !== res.currentAction()) {
         postBack(req.state.beforeLastInteraction);
         return null;
     }
